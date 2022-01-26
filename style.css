@@ -33,7 +33,6 @@ html, body{
     font-weight: 100;
   }
   .box p{
-    font-size: 10px;
-    letter-spacing: 3px;
+    font-size: 12px;
     text-align: justify;
   }
