@@ -3,27 +3,10 @@ html, body{
     padding: 0;
     background: url(bg.jpg);
     height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
- 
-.container {
-  overflow: hidden;
-}
-
-.sliding-background {
-  background: url(bg.jpg) repeat-x;
-  height: 1440px;
-  width: 7680px;
-  animation: slide 60s linear infinite;
-}
-
-@keyframes slide{
-  0% {
-    transform: translate3d(0, 0, 0);
-  }
-  100% {
-    transform: translate3d(-1692px, 0, 0);
-  }
-}
   .box{
     width: 600px;
     background: rgba(0, 0, 0, 0.4);
