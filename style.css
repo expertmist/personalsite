@@ -34,5 +34,6 @@ html, body{
   }
   .box p{
     font-size: 20px;
+    letter-spacing: 3px;
     text-align: justify;
   }
